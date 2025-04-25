@@ -4,7 +4,7 @@ public class Main {
         World world = new World();
 
         // Populate the world with 5 creatures
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i--) {
             world.createCreature();
         }
     
